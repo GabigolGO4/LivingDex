@@ -1,12 +1,9 @@
-LivingDex v0.5 – GitHub Pages PWA
+LivingDex v0.6 – GitHub Pages
 
-1. Auf GitHub ein neues öffentliches Repository namens LivingDex anlegen.
-2. Alle Dateien aus diesem ZIP im Hauptverzeichnis des Repositorys hochladen (index.html, sw.js, manifest.webmanifest, icons/).
-3. Settings > Pages > Build and deployment: Deploy from a branch, Branch main, Folder /(root), Save.
-4. Die GitHub-Pages-Adresse https://BENUTZERNAME.github.io/LivingDex/ in Chrome öffnen.
-5. Chrome-Menü > App installieren bzw. Zum Startbildschirm hinzufügen.
+1. WICHTIG: In der bisherigen App unter ⚙ Menü → Sicherung eine JSON-Sicherung erstellen.
+2. ZIP entpacken. Alle Dateien inklusive Ordner icons in das bestehende GitHub-Repository LivingDex hochladen und die bisherigen Dateien ersetzen (index.html und sw.js).
+3. GitHub Pages veröffentlicht die neue Version nach kurzer Zeit. Bei alter Anzeige Chrome neu laden bzw. App schließen und erneut öffnen.
+4. Deine bisherigen Einträge bleiben im gleichen Browserprofil und unter derselben GitHub-Pages-Adresse gespeichert. Für alle Fälle ist die Sicherung wichtig.
+5. Neue Funktionen in Pokédex: Generation 1–9, Sortierung nach Nummer, Name, Qualität oder Besitz, auf-/absteigend sowie Statusfilter. Alle Filter lassen sich mit Suche und den bisherigen Schaltflächen kombinieren.
 
-WICHTIG: Zuerst in v0.4 eine Sicherung exportieren; in LivingDex über ⚙ Menü > Wiederherstellen importieren.
-Die bisherigen localStorage-Schlüssel bleiben unverändert, und alte Sicherungen bleiben lesbar.
-Die Daten sind nur auf dem jeweiligen Gerät gespeichert; regelmäßige Sicherungen sind wichtig.
-Erster Start benötigt Internet für Pokémon-Namen und Bilder.
+Hinweis: Bei Wechsel von Datei-Ansicht oder Browser/Domain ist einmalig die JSON-Sicherung zu importieren.
