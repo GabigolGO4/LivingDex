@@ -1,0 +1,12 @@
+LivingDex v0.5 – GitHub Pages PWA
+
+1. Auf GitHub ein neues öffentliches Repository namens LivingDex anlegen.
+2. Alle Dateien aus diesem ZIP im Hauptverzeichnis des Repositorys hochladen (index.html, sw.js, manifest.webmanifest, icons/).
+3. Settings > Pages > Build and deployment: Deploy from a branch, Branch main, Folder /(root), Save.
+4. Die GitHub-Pages-Adresse https://BENUTZERNAME.github.io/LivingDex/ in Chrome öffnen.
+5. Chrome-Menü > App installieren bzw. Zum Startbildschirm hinzufügen.
+
+WICHTIG: Zuerst in v0.4 eine Sicherung exportieren; in LivingDex über ⚙ Menü > Wiederherstellen importieren.
+Die bisherigen localStorage-Schlüssel bleiben unverändert, und alte Sicherungen bleiben lesbar.
+Die Daten sind nur auf dem jeweiligen Gerät gespeichert; regelmäßige Sicherungen sind wichtig.
+Erster Start benötigt Internet für Pokémon-Namen und Bilder.
